@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-$LOAD_PATH.unshift(File.expand_path("../../lib", __dir__))
-
-require "dia"
+require '../lib/dia.rb'
 
 Dia.run(ARGV[0])
