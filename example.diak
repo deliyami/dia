@@ -1,0 +1,6 @@
+begin
+  puts "start"
+  raise "error!"
+buubuu
+  puts "buubuu! error desuwa!"
+end
